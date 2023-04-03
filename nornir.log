@@ -1,0 +1,75 @@
+2023-03-15 13:01:15,630 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary']} on 1 hosts
+2023-03-15 13:01:15,634 - nornir.core.task -    ERROR -      start() - Host 'Malabe_DC_GW1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 19, in napalm_cli
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/napalm/base/__init__.py", line 101, in get_network_driver
+    install_name=name
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper". Is the library installed?
+
+2023-03-15 13:01:26,131 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary']} on 1 hosts
+2023-03-15 13:01:26,134 - nornir.core.task -    ERROR -      start() - Host 'Malabe_DC_GW1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 19, in napalm_cli
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/napalm/base/__init__.py", line 101, in get_network_driver
+    install_name=name
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper". Is the library installed?
+
+2023-03-15 13:02:43,132 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary']} on 1 hosts
+2023-03-15 13:02:43,135 - nornir.core.task -    ERROR -      start() - Host 'Malabe_DC_GW1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 19, in napalm_cli
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/napalm/base/__init__.py", line 101, in get_network_driver
+    install_name=name
+napalm.base.exceptions.ModuleImportError: Cannot import "juniper". Is the library installed?
+
+2023-03-15 13:02:58,768 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary']} on 1 hosts
+2023-03-15 13:02:58,770 - nornir.core.task -    ERROR -      start() - Host 'Malabe_DC_GW1': task 'napalm_cli' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/tasks/napalm_cli.py", line 19, in napalm_cli
+    device = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 502, in get_connection
+    extras=conn.extras,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir/core/inventory.py", line 553, in open_connection
+    configuration=configuration,
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/nornir_napalm/plugins/connections/__init__.py", line 55, in open
+    network_driver = get_network_driver(platform)
+  File "/home/jsadmin/Automation/venv/lib/python3.7/site-packages/napalm/base/__init__.py", line 70, in get_network_driver
+    raise ModuleImportError("Please provide a valid driver name.")
+napalm.base.exceptions.ModuleImportError: Please provide a valid driver name.
+
+2023-03-15 13:05:34,152 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary']} on 1 hosts
+2023-03-15 14:13:43,611 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts
+2023-03-15 14:26:43,653 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts
+2023-03-15 14:27:11,634 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts
+2023-03-15 14:32:24,589 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts
+2023-03-15 14:34:39,861 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts
+2023-03-15 14:34:50,435 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show interfaces summary | display xml']} on 1 hosts

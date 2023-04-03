@@ -1,0 +1,6 @@
+---
+# Add devices here in form Hostname: 'ip address'Manchester_MX10003: '10.198.206.3'
+  MalabeDCGW1: '10.108.129.9'
+  MalabeDCGW2: '10.108.129.10'
+  PiliyandalaDCGW1: '10.203.57.9'
+  PiliyandalaDCGW2: '10.203.57.10'
