@@ -1,1 +1,2 @@
-this repo is for automaton of NFVI platform
+These scripts are useful for daily operations of MX480 juniper routers.
+
